@@ -50,7 +50,7 @@
 
 ## 快速开始（5 分钟）
 ```bash
-git clone https://github.com/wwaa34682-lab/xhs-workflow-kit.git && cd xhs-workflow-kit
+git clone https://github.com/wwaa34682-lab/xhs-workflow-kit-2.0.git && cd xhs-workflow-kit-2.0
 python3 -m venv .venv && source .venv/bin/activate     # 必须用虚拟环境（系统 Python 常因 PEP 668 拒绝 pip install）；Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python scripts/fetch_fonts.py                           # 下载三款 OFL 免费商用字体（约 30MB）

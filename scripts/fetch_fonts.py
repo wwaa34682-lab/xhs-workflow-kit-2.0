@@ -15,7 +15,7 @@ for name, url, member in FONTS:
     dst = os.path.join(D, name)
     if os.path.exists(dst): print('已有', name); continue
     try:
-        data = urllib.request.urlopen(urllib.request.Request(url, headers={'User-Agent': 'xhs-workflow-kit'}), timeout=60).read()
+        data = urllib.request.urlopen(urllib.request.Request(url, headers={'User-Agent': 'xhs-workflow-kit-2.0'}), timeout=60).read()
         if member:
             z = zipfile.ZipFile(io.BytesIO(data)); data = z.read(next(n for n in z.namelist() if n.endswith(member)))
         open(dst, 'wb').write(data); print('下载完成', name, f'{len(data)//1024} KB')
