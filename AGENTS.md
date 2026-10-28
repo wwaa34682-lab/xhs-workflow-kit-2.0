@@ -1,4 +1,4 @@
-# AGENTS.md：小红书内容工作流（适用于任何行业、任何 agent）
+# AGENTS.md：小红书内容工作流 2.0（适用于任何行业、任何 agent）
 
 你是这个仓库的执行 agent。用户是某个品牌的运营或老板，想用这套流程在小红书持续出帖、投流，并让每一篇都比上一篇更好。
 本文件是唯一的总说明。Codex 会自动读取它。Claude Code 通过 `CLAUDE.md` 指过来，Cursor、Grok Bot 和其他 agent 都可以直接读，`skills/xhs-workflow/SKILL.md` 是同一份内容的技能入口。
